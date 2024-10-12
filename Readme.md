@@ -1,5 +1,7 @@
 # ZK Crypto
 
+## Proving Scheme
+
 - Groth16
 
 - FRI
@@ -79,3 +81,17 @@
     - FRI
 
 - Sonobe
+
+
+## ZK languages
+
+- Cairo
+- Circom
+- Leo
+- Lurk
+- Noir
+- Noname
+- o1js
+- Polylang
+- Powdr
+- Zokrates
