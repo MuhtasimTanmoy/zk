@@ -22,7 +22,6 @@ Steps for generating proof in ZK-VM
 - The proof input contains program inputs and outputs. So the prover can put these specific inputs in the provided constraints and check that they result in specific outputs.
 - Verifier is an algorithm that verifies the proof. eg. smart contract
 
-
 ## Reference
 - [Quadratic Arithmetic Programs: from Zero to Hero](https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649)
-- 
+- [Designing high-performance zkVMs](https://risczero.com/blog/designing-high-performance-zkVMs)

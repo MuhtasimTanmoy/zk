@@ -19,7 +19,7 @@
 - Quarks
 - Plonky
 - Nova
-    - IVC Bolding
+    - IVC Folding
 - Brakedown
 - Snarkpack
 - fflonk
@@ -28,14 +28,18 @@
 - Hyper Plonk
 - Super Nova
 - Caulk
+  - Lookup argument
 - CQ
-    - Lookup argument
+  - Lookup argument
 - Kimchi
 - Boojum
     - Matter labs
 - Hypernova
+  - IVC
 - Protostar
+  - IVC
 - Protostar Galaxy
+  - IVC
 - Binius
 - Jolt
 - Lasso
