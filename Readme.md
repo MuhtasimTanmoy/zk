@@ -1,8 +1,8 @@
-# ZK
+# ZK Verfiable Compute
 
 ## Proving Scheme
 
-### SNARK
+### SNARK (IOP + PCP)
 - [Pinocchio](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6547113)
 - [Groth16](https://eprint.iacr.org/2016/260.pdf)
 - [Hyrax](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8418646)
@@ -30,7 +30,7 @@
   - PLONK
 - [Darlin](https://arxiv.org/pdf/2107.04315)
 - Quarks
-- Plonky
+- [Plonky](https://github.com/0xPolygonZero/plonky)
 - [Brakedown](https://eprint.iacr.org/2021/1043.pdf)
 - [Snarkpack](https://research.protocol.ai/publications/snarkpack-practical-snark-aggregation/gailly2021.pdf)
 - [fflonk](https://eprint.iacr.org/2021/1167.pdf)
@@ -79,6 +79,7 @@
 
 ### Others
 - [Bulletproofs](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8418611)
+- [Bulletproofs++](https://eprint.iacr.org/2022/510.pdf)
 
 ## ZK languages
 - Cairo
@@ -92,7 +93,7 @@
 - Powdr
 - Zokrates
 
-## ZKEVM
+## ZKVM
 - SP1
 - Polygon Miden
 - RiskZero
@@ -108,3 +109,4 @@
 - Ola VM
 - Triton VM
 - Lurk
+- Scroll
