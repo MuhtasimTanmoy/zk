@@ -1,13 +1,8 @@
 # ZK
 
-
-
-
-
 ## Proving Scheme
 
 ### SNARK
-
 - [Pinocchio](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6547113)
 - [Groth16](https://eprint.iacr.org/2016/260.pdf)
 - [Hyrax](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8418646)
@@ -49,7 +44,6 @@
 - Binius
 - [Jolt](https://eprint.iacr.org/2023/1217.pdf)
 - Polymath
-- Sonobe
 
 ### STARK
 - [STARK](https://eprint.iacr.org/2018/046.pdf)
@@ -75,6 +69,7 @@
 - [Basefold](https://eprint.iacr.org/2023/1705.pdf)
 - [CycleFold](https://eprint.iacr.org/2023/1192.pdf)
 - [LatticeFold](https://eprint.iacr.org/2023/1192.pdf)
+- [Sonobe](https://privacy-scaling-explorations.github.io/sonobe-docs)
 
 ### Lookup Argument
 - [Plookup](https://eprint.iacr.org/2022/086.pdf)
@@ -84,6 +79,9 @@
 - [CQ](https://eprint.iacr.org/2022/1763.pdf)
 - [CQlin](https://eprint.iacr.org/2023/393.pdf)
 - [Lasso](https://eprint.iacr.org/2023/1216.pdf)
+
+### Others
+- [Bulletproofs](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8418611)
 
 ## ZK languages
 - Cairo
