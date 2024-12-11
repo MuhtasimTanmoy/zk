@@ -31,16 +31,12 @@
 - [Darlin](https://arxiv.org/pdf/2107.04315)
 - Quarks
 - Plonky
-- Nova
-    - IVC Folding
 - [Brakedown](https://eprint.iacr.org/2021/1043.pdf)
 - [Snarkpack](https://research.protocol.ai/publications/snarkpack-practical-snark-aggregation/gailly2021.pdf)
 - [fflonk](https://eprint.iacr.org/2021/1167.pdf)
 - SHPLONK
 - [Hyper Plonk](https://eprint.iacr.org/2022/1355.pdf)
 - Kimchi
-- Boojum
-    - Matter labs
 - Binius
 - [Jolt](https://eprint.iacr.org/2023/1217.pdf)
 - Polymath
@@ -79,6 +75,7 @@
 - [CQ](https://eprint.iacr.org/2022/1763.pdf)
 - [CQlin](https://eprint.iacr.org/2023/393.pdf)
 - [Lasso](https://eprint.iacr.org/2023/1216.pdf)
+- [Boojum](https://github.com/matter-labs/zksync-crypto/tree/main/crates/boojum)
 
 ### Others
 - [Bulletproofs](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8418611)
