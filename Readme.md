@@ -76,6 +76,7 @@
 - [CQlin](https://eprint.iacr.org/2023/393.pdf)
 - [Lasso](https://eprint.iacr.org/2023/1216.pdf)
 - [Boojum](https://github.com/matter-labs/zksync-crypto/tree/main/crates/boojum)
+- [Twist and Shout](https://eprint.iacr.org/2025/105.pdf)
 
 ### Others
 - [Bulletproofs](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8418611)
