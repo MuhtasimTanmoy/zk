@@ -82,7 +82,35 @@
 - [Bulletproofs](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8418611)
 - [Bulletproofs++](https://eprint.iacr.org/2022/510.pdf)
 
-## ZK languages
+## Schemes
+
+| Proof System | Setup Complexity | Post-Quantum Resistance | Scalability | Parallel Execution | Features |
+|--------------|-------------------|-----------|-------------------------|-------------|-------------------|
+|     [**Halo2**](https://zcash.github.io/halo2)   |   Transparent  |      No (ECC based)    |     High    |     Moderate     |  Recursive SNARKs, Custom gates, Plonkish arithmetization    |
+|   [**Circom (Groth16)**](https://docs.circom.io)   |  Trusted Setup     |     No (Pairing-based)  |   Moderate  |       High      | Efficient SNARK generation for circuits, good for small proof   | 
+|   [**Risc Zero**](https://dev.risczero.com/api)  |   Transparent   |         Yes       |     High    |       High      |  General-purpose zkVM, RISC-V architecture, supports arbitrary computations   |
+|     [**Jolt**](https://jolt.a16zcrypto.com)     |   Both          |       Yes       |   Very High |     Very High   |  Sumcheck and lookup arguments, optimized for high-performance proof generation, upcoming [twist and shout](https://eprint.iacr.org/2025/105.pdf)   |
+|  [**Nexus zkVM**](https://docs.nexus.xyz)   |   Transparent   |       Partial     |   Moderate  |       High      | Privacy-focused zkVM, Ethereum compatibility, supports smart contract verification	    | 
+|     [**SP1**](https://docs.succinct.xyz/docs/sp1/introduction)      |   Transparent   |         Yes       |   Very High |     Very High   | Optimized for rollups, efficient parallel proving, GPU-optimised, supports high-throughput applications, supports arbitrary computations, [whitepaper](https://www.provewith.us)   |
+|    [**Powdr** ](https://docs.powdr.org/)    |   Transparent   |         Yes       |     High    |       High      |  Developer-friendly, multiple proof systems, and zk-continuations for unbounded execution, minimal setup   |
+| [**Polygon Miden**](https://0xpolygonmiden.github.io/miden-vm/intro/main.html)    | Transparent            | Yes                     | High        | High                | STARK-based (Winterfell) zkVM, designed for program execution proofs, high scalability|
+| [**Aleo SnarkVM**](https://github.com/ProvableHQ/snarkVM)    | Trusted Setup          | No (Pairing-based)      | Moderate    | High                | Privacy-preserving SNARK-based zkVM, supports private smart contracts    |
+| [**Zokrates**](https://zokrates.github.io)         | Trusted Setup          | No (Pairing-based)      | Moderate    | High                | High-level DSL for zk-SNARKs, extensive developer tooling, supports Groth16 and PLONK     |
+| [**Delphinus ZKWASM**](https://github.com/DelphinusLab/zkWasm) | Transparent            | Yes                     | High        | High                | WebAssembly-based zkVM, supports proving WASM execution, ideal for cross-platform apps    |
+| [**Lita Valida**](https://lita.gitbook.io)     | Transparent            | Yes                     | Moderate    | Moderate            | Modular chip, ensures the correctness of zk circuits, supports custom proofs  |
+| [**Eigen ZKVM**](https://github.com/0xEigenLabs/eigen-zkvm)      | Transparent            | Yes                     | Very High   | High                | High-performance zkVM, designed for Ethereum scaling, supports recursive proofs           |
+| [**CairoVM**](https://github.com/starkware-libs)         | Transparent            | Yes                     | Very High   | High                | STARK-based VM, designed for StarkNet, supports general-purpose computation               |
+| [**Noir** ](https://noir-lang.org/docs)            | Transparent            | Yes (STARK-based)       | High        | High                | High-level zkDSL, supports general-purpose zk circuits, STARK-based backend               |
+| [**Ola VM**](https://github.com/Sin7Y/olavm)           | Transparent            | Yes                     | High        | High                | STARK-based, Privacy-preserving zkVM, supports custom circuits, programmable scalable and private proof         |
+| [**Triton VM**](https://triton-vm.org/spec)       | Transparent            | Yes                     | High        | High                | Efficient recursive verification, Algebraic Execution Tables (AET) and Arithmetic Intermediate Representations (AIR) with a [STARK](https://neptune.cash/learn/stark-anatomy) proof system.   |
+| [**Lurk**](https://docs.argument.xyz)            | Transparent            | Yes                     | Moderate    | Moderate            | zk-LISP interpreter, supports verifiable computations, ideal for symbolic execution       |
+| [**Ceno** ](https://github.com/scroll-tech/ceno)           | Transparent            | Yes                     | High        | High                | Non-uniform prover based on GKR Protocol, [Segment and Parallel](https://eprint.iacr.org/2024/387.pdf) Zero-knowledge Virtual Machine                       |
+| [**Expander**](https://expander.polyhedra.network)        | Transparent            | Yes                     | Very High   | Very High           | GKR + [Libra](https://eprint.iacr.org/2019/317.pdf), Parallel computing    |
+| [**OpenVM**](https://book.openvm.dev)           | Transparent            | Yes                     | High        | High                | Modular architecture, supports general-purpose zkVM, adaptable to various use cases       |
+| [**Brevis**](https://pico-docs.brevis.network)          | Transparent            | Yes                     | Very High   | High                | Focused on proof aggregation and recursion, [glue-and-coprocessor](https://vitalik.eth.limo/general/2024/09/02/gluecp.html) architecture, multiple proving backends, Coprocessor Integration               |
+
+
+## ZK DSL
 - Cairo
 - Circom
 - Leo
@@ -93,21 +121,3 @@
 - Polylang
 - Powdr
 - Zokrates
-
-## ZKVM
-- SP1
-- Polygon Miden
-- RiskZero
-- Starkware
-- Valida
-- ZKSync Era
-- Nexus
-- Jolt
-- Powdr
-- Aleo
-- Delphinus Lab ZKWASM
-- Eigen ZKVM
-- Ola VM
-- Triton VM
-- Lurk
-- Scroll
