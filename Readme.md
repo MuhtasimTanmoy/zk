@@ -68,7 +68,8 @@
 - [Sonobe](https://privacy-scaling-explorations.github.io/sonobe-docs)
 
 ### Lookup Argument
-- [Plookup](https://eprint.iacr.org/2022/086.pdf)
+- [Plookup](https://eprint.iacr.org/2020/315.pdf): Proofs that some witness values are part of a lookup table. 
+- [Plonkpp](https://eprint.iacr.org/2022/086.pdf): Integrate Plookup into Plonk.
 - [Caulk](https://eprint.iacr.org/2022/621.pdf)
 - [Flookup](https://eprint.iacr.org/2022/1447.pdf)
 - [Baloo](https://eprint.iacr.org/2022/1565.pdf)
