@@ -56,16 +56,21 @@
 - Garuda and Pari
 
 ### Incrementally Verifiable Computation / Folding Scheme Protocols
-- [Nova](https://eprint.iacr.org/2021/370.pdf)
+- [Nova: Recursive Zero-Knowledge Arguments from Folding Schemes](https://eprint.iacr.org/2021/370.pdf)
 - [Super Nova](https://eprint.iacr.org/2022/1758.pdf)
-- [Hypernova](https://eprint.iacr.org/2023/573.pdf)
+- [HyperNova: Recursive arguments for customizable constraint systems](https://eprint.iacr.org/2023/573.pdf)
 - [Sangria](https://github.com/geometryxyz/technical_notes/blob/main/sangria_folding_plonk.pdf)
-- [Protostar](https://eprint.iacr.org/2023/620.pdf)
-- [Protostar Galaxy](https://eprint.iacr.org/2023/1106.pdf)
+- [ProtoStar: Generic Efficient Accumulation/Folding for Special Sound Protocols](https://eprint.iacr.org/2023/620.pdf)
+- [ProtoGalaxy: Efficient ProtoStar-style folding of multiple instances](https://eprint.iacr.org/2023/1106.pdf)
 - [Basefold](https://eprint.iacr.org/2023/1705.pdf)
 - [CycleFold](https://eprint.iacr.org/2023/1192.pdf)
-- [LatticeFold](https://eprint.iacr.org/2023/1192.pdf)
+- [LatticeFold: A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems](https://eprint.iacr.org/2024/257.pdf)
 - [Sonobe](https://privacy-scaling-explorations.github.io/sonobe-docs)
+- [KiloNova: Non-Uniform PCD with Zero-Knowledge Property from Generic Folding Schemes](https://eprint.iacr.org/2023/1579.pdf)
+- [Accumulation without Homomorphism](https://eprint.iacr.org/2024/474.pdf)
+- [Mova: Nova folding without committing to error terms](https://eprint.iacr.org/2024/1220.pdf)
+- [Sangria: a Folding Scheme for PLONK](https://geometry.xyz/notebook/sangria)
+- [Spartan: Efficient and general-purpose zkSNARKs without trusted setup](https://eprint.iacr.org/2019/550.pdf)
 
 ### Lookup Argument
 - [Plookup](https://eprint.iacr.org/2022/086.pdf)
