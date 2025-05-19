@@ -66,6 +66,7 @@
 - [CycleFold](https://eprint.iacr.org/2023/1192.pdf)
 - [LatticeFold](https://eprint.iacr.org/2023/1192.pdf)
 - [Sonobe](https://privacy-scaling-explorations.github.io/sonobe-docs)
+- [KGH Fold](https://eprint.iacr.org/2025/144.pdf)
 
 ### Lookup Argument
 - [Plookup](https://eprint.iacr.org/2020/315.pdf): Proofs that some witness values are part of a lookup table. 
