@@ -1,5 +1,15 @@
 # ZK Verfiable Compute
 
+`(Relation, Witness)` 
+
+-- [Arithmatisation] --> `Zero Check` 
+
+-- [PIOP] --> `Polynomial Identity` 
+
+-- [PCS]--> `Interactive Argument`
+
+-- [Fiat Shamir Transform]--> `Non Interactive Argument` 
+      
 ## Arithmatisation
 - R1CS
 - AIR
