@@ -1,8 +1,38 @@
 # ZK Verfiable Compute
 
-## Proving Scheme
+## Arithmatisation
+- R1CS
+- AIR
+- Plonkish
+- Layered Arithmatic Circuit
 
-### SNARK (IOP + PCP)
+## IOP
+- Plonk
+- GKR (Sumcheck)
+- Spartan (Sumcheck)
+- Ligero
+
+## PCS
+
+- Hash Based
+  - Ligero
+  - FRI
+  - STIR
+  - WHIR
+  - Brakedown
+    
+- ECDL Based
+  - KGZ
+  - IPA
+  - Hyrax
+    
+- Lattice Based
+  - Greyhound
+
+
+## Proving Schemes
+
+### SNARK (IOP + PCS)
 - [Pinocchio](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6547113)
 - [Groth16](https://eprint.iacr.org/2016/260.pdf)
 - [Hyrax](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8418646)
