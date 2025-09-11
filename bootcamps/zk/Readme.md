@@ -1,4 +1,5 @@
 # ZK
+Contains QA sesstion content for each class.
 
 - [Class 1](./1.md)
 - [Class 2](./2.md)
