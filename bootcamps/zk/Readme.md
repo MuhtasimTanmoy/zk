@@ -20,3 +20,5 @@ Contains QA sesstion content for each class.
 - [Class 14](./14.md)
 - [Class 15](./15.md)
 - [Class 16](./16.md)
+
+- [Project](./project)
