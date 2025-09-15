@@ -1,9 +1,10 @@
 # ZK
 
-
 ## Bootcamps
+- [ZK and Scaling Bootcamp](./bootcamps/zk/)
 
-
+## Sessions
+- [ZK Hack](./sessions/zkhack.md)
 
 ## Concepts
 
