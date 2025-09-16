@@ -1,5 +1,47 @@
 # Zero-Knowledge Proofs & ZKML Learning Notes
 
+
+1️⃣ Ethereum (Computation) → Smart contracts and on-chain logic.
+2️⃣ Swarm (Storage) → Decentralized file storage (IPFS alternative).
+3️⃣ Whisper (Messaging) → Secure, private communication layer.
+
+- Pairing based snark
+- Code based snark
+- Lattice based snark
+- Linearly Homomorphic
+- Ring based aitai commitmnet
+- Integer based
+
+1️⃣ Transaction Submission (Users & Bots)
+2️⃣ Mempool Monitoring & Order Flow (Searchers, Private Relays)
+3️⃣ MEV Search & Strategy Execution (Arbitrage, Sandwich, Liquidations) front run back run
+4️⃣ Transaction Bundling & Ordering (Searchers & Builders)
+5️⃣ Block Building & Proposal (Block Builders & Validators)
+6️⃣ MEV Extraction & Redistribution (Validators & PBS)
+
+SUAVE (Flashbots' new architecture) 
+
+A Based Rollup is a type of Ethereum Layer 2 (L2) rollup that delegates sequencing and transaction ordering to Ethereum validators instead of using a separate sequencer set
+
+AMM
+Constant Product Market Maker (CPMM) — Uniswap v2 Model
+Constant Sum Market Maker
+Constant Mean Market Maker (CMMM) — Balancer Model
+
+slippage
+
+
+Proof of Authority (PoA): A Consensus Mechanism
+Proof of Authority (PoA) is a consensus algorithm used in blockchains where a fixed set of validators (authorities) are pre-approved to validate transactions and produce blocks. Unlike Proof of Work (PoW) or Proof of Stake (PoS), PoA relies on identity-based reputation rather than computational power or stake size.
+
+MEV
+- Mempool - Searcher - Builder - Proposer 
+- Proposer pre confirmation
+
+Property
+- Safety
+- Liveness
+
 ## Topics
 
 * Finite Fields
@@ -108,6 +150,9 @@
 #### Lecture 6: Polynomial Commitments based on Pairing and Discrete Logarithm
 
 * [Lecture Link](https://www.youtube.com/watch?v=HdwMtrXLLWk&list=PLS01nW3RtgopRnH84Omx0C4yZo75uSHWO)
+
+![](./sc/pc.png)
+
 * Functions:
   * keygen(gamma, F) → global param
   * commit(gp, f) → commitment
@@ -123,7 +168,7 @@
 * GGM can reduce commitment size
 * Multivariate KGZ
 
-![](./sc/pc.png)
+
 
 #### Lecture 7: Polynomial Commitments based on Error-Correcting Codes
 

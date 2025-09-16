@@ -1,5 +1,55 @@
 # ZK Hack
 
+[zk-summit-lisbon-24](https://www.youtube.com/watch?v=lVvct93zJz0)
+- Groth16
+- FRI
+- STARK Bulletproof
+- Sonic
+    - Universal Trusted Setup
+- Plonk
+- Aurora
+- Martin
+- Spartan
+- Redshift
+- Fractal
+- Halo
+- Halo2
+- Plooku
+    - Lookup argument
+- Quarks
+- Plonky
+- Nova 
+    - IVC Bolding
+- Brakedown
+- Snarkpack
+- fflonk
+- SHPLONK
+- Plonky2
+- Hyper Plonk
+- Super Nova
+- Caulk
+- CQ
+    - Lookup argument
+- Kimchi
+- Boojum 
+    - Matter labs
+- Hypernova
+- Protostar
+- Protostar Galaxy
+- Binius
+- Jolt
+- Lasso
+    - Sumcheck
+- Polymath
+- Stackproofs
+- Plonky3
+- Circle Starks
+- Garuda and pari
+- Stir
+- Whir
+    - FRI
+- Sonobe
+
 [ZK Whiteboard Sessions 1, 2, 3](https://www.youtube.com/playlist?list=PLj80z0cJm8QErn3akRcqvxUsyXWC81OGq)
 
 - Snarks
