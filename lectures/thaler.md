@@ -109,22 +109,17 @@ A collection of lectures and notes by **Justin Thaler** on Interactive Proofs, S
     - Folding Scheme based - Recursion
 - PCS
   - Pairing Based ( not transparent nor post quantum resistant )
-
     - KGZ10, PST13, ZGKPP18
   - Discrete logarithm ( transparent nor post quantum resistant )
-
     - IPA, Bulletproof, Hyrax, Dory
   - IOP + hashing ( transparent and post quantum )
-
     - FRI, Ligero, Brakedown
   - Groups of unknown order ( transparent for using class groups )
-
     - Dark, Dew
   - Inner Product Argument
-
     - Halo, Bulletproof
 
-Resources & References
+## Resources & References
 
 - [PAZK GitHub](https://github.com/thor314/pazk)
 - [PAZK Notes](https://github.com/SuccinctPaul/pazk-notes)
