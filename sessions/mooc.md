@@ -1,4 +1,3 @@
-
 # Zero-Knowledge Proofs & ZKML Learning Notes
 
 ## Topics
@@ -124,6 +123,8 @@
 * GGM can reduce commitment size
 * Multivariate KGZ
 
+![](./sc/pc.png)
+
 #### Lecture 7: Polynomial Commitments based on Error-Correcting Codes
 
 * [Lecture Link](https://youtu.be/cxtZfAHBTZM?list=PLS01nW3RtgopEpcPnXiXsHPO8HsaGUgmd)
@@ -235,7 +236,3 @@
 * Does not store full state or history
 
 **Note:** Full sync executes all transactions; fast sync avoids this by directly obtaining current state.
-
----
-
-This formatting preserves all your content and makes it readable for reference or README-style documentation.
