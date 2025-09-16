@@ -10,6 +10,7 @@
 ## Sessions
 
 - [ZK Hack](./sessions/zkhack.md)
+- [MOOC](./sessions/mooc.md)
 
 ## Concepts
 
