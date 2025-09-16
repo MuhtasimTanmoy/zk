@@ -7,6 +7,13 @@
 - [MEV](./sessions/mev.md)
 - [ZKVM](./sessions/zkvm.md)
 
+# Lectures
+
+* [Justin Thaler](./lectures/thaler.md)
+  * [Proofs, Arguments, and Zero-Knowledge](./lectures/pazk.md)
+* [Dan Boneh](./lectures/dan.md)
+* [David Wong](./lectures/wong.md)
+
 ## Bootcamps
 
 - [ZK and Scaling](/bootcamps/zk/)
