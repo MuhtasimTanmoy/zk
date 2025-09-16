@@ -13,6 +13,7 @@
   * [Proofs, Arguments, and Zero-Knowledge](./lectures/pazk.md)
 * [Dan Boneh](./lectures/dan.md)
 * [David Wong](./lectures/wong.md)
+* [Vitalik](./lectures/vitalik.md)
 
 ## Bootcamps
 
