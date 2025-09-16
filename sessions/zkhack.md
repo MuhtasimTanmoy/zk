@@ -1,11 +1,12 @@
 # ZK Hack
 
 [zk-summit-lisbon-24](https://www.youtube.com/watch?v=lVvct93zJz0)
+
 - Groth16
 - FRI
 - STARK Bulletproof
 - Sonic
-    - Universal Trusted Setup
+  - Universal Trusted Setup
 - Plonk
 - Aurora
 - Martin
@@ -15,11 +16,11 @@
 - Halo
 - Halo2
 - Plooku
-    - Lookup argument
+  - Lookup argument
 - Quarks
 - Plonky
-- Nova 
-    - IVC Bolding
+- Nova
+  - IVC Bolding
 - Brakedown
 - Snarkpack
 - fflonk
@@ -29,17 +30,17 @@
 - Super Nova
 - Caulk
 - CQ
-    - Lookup argument
+  - Lookup argument
 - Kimchi
-- Boojum 
-    - Matter labs
+- Boojum
+  - Matter labs
 - Hypernova
 - Protostar
 - Protostar Galaxy
 - Binius
 - Jolt
 - Lasso
-    - Sumcheck
+  - Sumcheck
 - Polymath
 - Stackproofs
 - Plonky3
@@ -47,8 +48,22 @@
 - Garuda and pari
 - Stir
 - Whir
-    - FRI
+  - FRI
 - Sonobe
+
+
+- IVC
+- Memory protection for CPU
+- Map to group
+- IVC to RCG
+- Proof compression
+- Whir -IOPP for Contrained Reed Solomon code + Sigma IOP + BCS transformation
+- Langrange
+- GPU FGPA DSP
+- risk zero
+- powdr
+- Polynoimial Identity Language
+- Stark plonky3, stw --- Folding Nova - GKR Expander - Renainder
 
 [ZK Whiteboard Sessions 1, 2, 3](https://www.youtube.com/playlist?list=PLj80z0cJm8QErn3akRcqvxUsyXWC81OGq)
 

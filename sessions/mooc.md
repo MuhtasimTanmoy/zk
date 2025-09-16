@@ -168,8 +168,6 @@ Property
 * GGM can reduce commitment size
 * Multivariate KGZ
 
-
-
 #### Lecture 7: Polynomial Commitments based on Error-Correcting Codes
 
 * [Lecture Link](https://youtu.be/cxtZfAHBTZM?list=PLS01nW3RtgopEpcPnXiXsHPO8HsaGUgmd)
@@ -186,6 +184,18 @@ Property
 * [Lecture Link](https://youtu.be/cKvld6QWi7s?list=PLS01nW3RtgorRZsBnqch6gGBStZB9VVr)
 * IOP: IP, MIP, Constant Round IOP (Plonk Spartan)
 * Commitments: pairing-based, discrete log-based, hash-based
+
+#### ZKP MOOC Lecture 10: Recursive SNARKs
+
+* [Lecture Link](https://www.youtube.com/watch?v=0LW-qeVe6QI) ✅
+* Snark construction: Groth, KGZ Plonk, FRI based (Short prover time, long proof)
+* Recusrsive snarks
+    * no proof of witness
+    * proof of a proof on witness
+* Fiat shamir to transform interactive to non-interactive
+* Streaming proof geenration
+* Incrementally verifiable computation - less memory requirement - task distributrd
+
 
 #### Lecture 11: From Practice to Theory (Part 1)
 
@@ -206,6 +216,34 @@ Property
 * R1CS → IOP + PCS
 * Plonkish + Plonk IOP + KGZ
 * Blockchain attestation: rerun transactions to generate state root
+
+#### ZK Whiteboard Sessions - S2M4: Risc-V ZKVMs with Uma Roy
+
+* [Lecture Link](https://www.youtube.com/watch?v=Y4kIgPm95WM) ✅
+- STARK
+- FRI
+- AIR
+- Log Derivative Lookup Argument
+- Risk Instruction
+- Check memory, program counter, value
+- CPU table
+- Add Table: Instruction specific Contraint
+- Mul Table
+- Shift table
+- Each table has many extra witness data, not to be inserted in CPU table
+- Memory
+  - Merklized
+  - Read open proof
+  - Write Update proof
+  - Add tuple to lookup argument accumulator
+  - Total 0
+  - keccak Table
+  - STARK to SNARK
+  - plonkish-kgz
+  - Hash based vs pairing based
+  - CPU circuits, optimized by precompiler, alu specific circuits
+  - Aggregation circuit for FRI
+  - FRI (100kb) to SNARK (100 bytes) 
 
 ---
 

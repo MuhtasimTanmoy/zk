@@ -3,6 +3,7 @@
 ## Bootcamps
 
 - [ZK and Scaling](/bootcamps/zk/)
+
   - [Introduction and Bootcamp Overview](/bootcamps/zk/1.md)
   - [ZKP Theory and Zokrates](/bootcamps/zk/2.md)
   - [Introduction to Scaling Solutions](/bootcamps/zk/3.md)
@@ -20,8 +21,8 @@
   - [Identity Solutions / zkML](/bootcamps/zk/15.md)
   - [Trends and Review](/bootcamps/zk/16.md)
   - [Final Projects](/bootcamps/zk/project.md)
-
 - [Advanced Solidity](./bootcamps/advanced-solidity)
+
   - [Course Introduction](./bootcamps/advanced-solidity/1.md)
   - [Solidity Review and New Features](./bootcamps/advanced-solidity/2.md)
   - [EVM Deep Dive](./bootcamps/advanced-solidity/3.md)
@@ -38,9 +39,8 @@
   - [Huff / Maths libraries / Stablecoins](./bootcamps/advanced-solidity/14.md)
   - [Latest Changes](./bootcamps/advanced-solidity/15.md)
   - [Governance](./bootcamps/advanced-solidity/16.md)
-
-
 - [ZKML](./bootcamps/zkml)
+
   - [ZKP and ML Fundamentals](bootcamps/zkml/1.md)
   - [Introduction to ML](bootcamps/zkml/2.md)
   - [Introduction to zkML](bootcamps/zkml/3.md)
@@ -56,14 +56,13 @@
   - [EZKL Workshop](bootcamps/zkml/13.md)
   - [Giza Workshop](bootcamps/zkml/14.md)
   - [Finale Projects](bootcamps/zkml/projects.md)
-
-
 - [GKR Bounty](./bootcamps/gkr/doc.md)
 
 ## Sessions
 
 - [ZK Hack](./sessions/zkhack.md)
 - [MOOC](./sessions/mooc.md)
+- [MEV](./sessions/mev.md)
 
 ## Concepts
 
