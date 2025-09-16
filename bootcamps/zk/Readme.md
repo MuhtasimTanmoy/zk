@@ -1,24 +1,23 @@
 # ZK
 Contains QA sesstion content for each class.
 
-- [Class 1](./1.md)
-- [Class 2](./2.md)
-- [Class 3](./3.md)
-- [Class 4](./4.md)
+- [Introduction and Bootcamp Overview](1.md)
+- [ZKP Theory and Zokrates](2.md)
+- [Introduction to Scaling Solutions](3.md)
+- [Introduction to Starknet / Cairo](4.md)
 
-- [Class 5](./5.md)
-- [Class 6](./6.md)
-- [Class 7](./7.md)
-- [Class 8](./8.md)
+- [Mastering Cairo](5.md)
+- [Understanding Zcash](6.md)
+- [Mastering Mina Protocol](7.md)
+- [Deep Dive into Mina and Aleo](8.md)
 
-- [Class 9](./9.md)
-- [Class 10](./10.md)
-- [Class 11](./11.md)
-- [Class 12](./12.md)
+- [zkEVM Solutions](9.md)
+- [zkEVM Solutions and ZK Rollups](10.md)
+- [Risc Zero / Circom](11.md)
+- [ZK - Snark Theory / PLONK](12.md)
 
-- [Class 13](./13.md)
-- [Class 14](./14.md)
-- [Class 15](./15.md)
-- [Class 16](./16.md)
-
-- [Project](./project)
+- [Stark Theory](13.md)
+- [Cryptographic Alternatives](14.md)
+- [Identity Solutions / zkML](15.md)
+- [Trends and Review](16.md)
+- [Final Projects](project.md)
