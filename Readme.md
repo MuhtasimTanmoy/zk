@@ -2,10 +2,11 @@
 
 ## Session Notes
 
+- [ZKVM](./sessions/zkvm.md)
 - [ZK Hack](./sessions/zkhack.md)
 - [MOOC](./sessions/mooc.md)
 - [MEV](./sessions/mev.md)
-- [ZKVM](./sessions/zkvm.md)
+
 
 # Lectures
 
