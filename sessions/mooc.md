@@ -28,8 +28,7 @@ Constant Product Market Maker (CPMM) — Uniswap v2 Model
 Constant Sum Market Maker
 Constant Mean Market Maker (CMMM) — Balancer Model
 
-slippage
-
+Slippage
 
 Proof of Authority (PoA): A Consensus Mechanism
 Proof of Authority (PoA) is a consensus algorithm used in blockchains where a fixed set of validators (authorities) are pre-approved to validate transactions and produce blocks. Unlike Proof of Work (PoW) or Proof of Stake (PoS), PoA relies on identity-based reputation rather than computational power or stake size.
@@ -59,7 +58,7 @@ Property
 
 ## Video Resources
 
-### Blockchain & Web3 MOOCs
+#### Blockchain & Web3 MOOCs
 
 * [Blockchain-Web3 MOOCs](https://www.youtube.com/@blockchain-web3moocs635/playlists)
 
@@ -151,7 +150,7 @@ Property
 
 * [Lecture Link](https://www.youtube.com/watch?v=HdwMtrXLLWk&list=PLS01nW3RtgopRnH84Omx0C4yZo75uSHWO)
 
-![](./sc/pc.png)
+<img src="./sc/pc.png" width="250">
 
 * Functions:
   * keygen(gamma, F) → global param
@@ -195,7 +194,6 @@ Property
 * Fiat shamir to transform interactive to non-interactive
 * Streaming proof geenration
 * Incrementally verifiable computation - less memory requirement - task distributrd
-
 
 #### Lecture 11: From Practice to Theory (Part 1)
 
@@ -245,40 +243,30 @@ Property
   - Aggregation circuit for FRI
   - FRI (100kb) to SNARK (100 bytes) 
 
----
-
-## Constraints
+#### Constraints
 
 * **R1CS:** linear combination
 * **Plonkish:** custom gates, lookups (efficient range, connect, mapping), permutation, generalized for AIR
 * **AIR:** STARK, [AirAssembly Spec](https://github.com/GuildOfWeavers/AirAssembly/tree/master/specs)
 
----
-
-## zkEVM Implementations
+#### zkEVM Implementations
 
 * Polygon Hermez: Stark, FPlonk
 * zkEVM: Halo2 + KGZ
 
----
-
-## GPU Prover Optimizations
+#### GPU Prover Optimizations
 
 * MSM: inner product over elliptic curves
 * NTT: FFT over finite fields
 
----
-
-## Other Notes
+#### Other Notes
 
 * FRI with Goldilocks, Mersenne Prime
 * Polynomial Commitment + IOP → KGZ + Plonk IOP
 * Sumcheck protocol: Boolean hypercube
   * [Video Reference](https://www.youtube.com/watch?v=XV62OB022tU&t=41s)
 
----
-
-## ZKP Applications
+#### ZKP Applications
 
 * ML model privacy
 * Matrix multiplication proofs: sublinear verification
@@ -295,24 +283,22 @@ Property
 
 * [Substack Notes](https://domsteil.substack.com/p/zkp-mooc)
 
----
+#### Ethereum Node Synchronization
 
-## Ethereum Node Synchronization
-
-### Full Sync
+#### Full Sync
 
 * Downloads every block from genesis
 * Replays and executes every transaction
 * Verifies transaction and contract state
 * Node has full history and current state
 
-### Fast Sync
+#### Fast Sync
 
 * Downloads only block headers
 * Downloads snapshot of state (accounts, balances, contracts) after a recent block
 * Faster: skips replaying all transactions from genesis
 
-### Light Sync
+#### Light Sync
 
 * Downloads only block headers
 * Relies on full nodes for specific information
