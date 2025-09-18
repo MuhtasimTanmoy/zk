@@ -65,7 +65,3 @@
 * Team 7: [Link](https://github.com/aka-0x4C3DD/encode-zkML-bootcamp-project)
 * Team 9: [Link](https://github.com/Sahilgill24/encode-zkML)
 * Team 10: [Link](https://github.com/babybear-labs/ZKML-Bootcamp)
-
----
-
-If you want, I can **also make a small “one-line description” table for all teams** so you can have a super compact overview for quick reference. Do you want me to do that?
