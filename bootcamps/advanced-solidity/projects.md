@@ -16,3 +16,4 @@
 
 - Simulate tx on chain for immediate response/score: Repo: [https://github.com/moojing/CTF-EncodeClub2025](https://github.com/moojing/CTF-EncodeClub2025/blob/main/test/BaseCTF.sol#L24-L33).
 - Simpler approach with `vm.createSelectFork`: Repo: [https://github.com/aj3423/Encode_Solidity_CTF_2025](https://github.com/aj3423/Encode_Solidity_CTF_2025/blob/12370bbecd9831b1d61677e7ca2c2487325b5cee/test/MyTest.t.sol#L22).
+- Other [bootcamp session resources](https://github.com/svenski123/asbf25/tree/main/hw)
