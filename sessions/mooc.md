@@ -60,7 +60,7 @@ Property
 
 #### Blockchain & Web3 MOOCs
 
-* [Blockchain-Web3 MOOCs](https://www.youtube.com/@blockchain-web3moocs635/playlists)
+* [Blockchain-Web3 MOOCs](https://www.youtube.com/@BerkeleyRDI/playlists)
 
 ### ZKP Lectures
 
