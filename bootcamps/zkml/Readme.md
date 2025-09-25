@@ -1,0 +1,17 @@
+# ZKML
+
+- [ZKP and ML Fundamentals](./1.md)
+- [Introduction to ML](./2.md)
+- [Introduction to zkML](./3.md)
+- [EZKL and Zokrates Introduction](./4.md)
+- [zkML Timeline and Challenges](./5.md)
+- [Zokrates and EZKL, cont.](./6.md)
+- [zkML Projects](./7.md)
+- [zkML in DeFi and coSNARKS](./8.md)
+- [Various Topics](./9.md)
+- [GKR / zkLLM / Zero Gravity](./10.md)
+- [Folding, Games and Hardware](./11.md)
+- [Course Review](./12.md)
+- [EZKL Workshop](./13.md)
+- [Giza Workshop](./14.md)
+- [Finale Projects](./projects.md)
