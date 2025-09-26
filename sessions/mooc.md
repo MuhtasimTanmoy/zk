@@ -2,7 +2,9 @@
 
 
 1️⃣ Ethereum (Computation) → Smart contracts and on-chain logic.
+
 2️⃣ Swarm (Storage) → Decentralized file storage (IPFS alternative).
+
 3️⃣ Whisper (Messaging) → Secure, private communication layer.
 
 - Pairing based snark
@@ -13,10 +15,15 @@
 - Integer based
 
 1️⃣ Transaction Submission (Users & Bots)
+
 2️⃣ Mempool Monitoring & Order Flow (Searchers, Private Relays)
+
 3️⃣ MEV Search & Strategy Execution (Arbitrage, Sandwich, Liquidations) front run back run
+
 4️⃣ Transaction Bundling & Ordering (Searchers & Builders)
+
 5️⃣ Block Building & Proposal (Block Builders & Validators)
+
 6️⃣ MEV Extraction & Redistribution (Validators & PBS)
 
 SUAVE (Flashbots' new architecture) 
