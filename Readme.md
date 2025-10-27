@@ -16,7 +16,7 @@
 * [David Wong](./lectures/wong.md)
 * [Vitalik](./lectures/vitalik.md)
 
-## Experimental Impl
+## Experimental Implementation
 - [gvm](https://github.com/poly-layer/gvm) - GKR-based Risc-V VM
 
 ## Bootcamps
