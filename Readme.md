@@ -1,4 +1,7 @@
-# ZK
+# Zero Knowledge (ZK)
+
+A curated collection of **notes, lectures, bootcamps, and experiments** focused on Zero-Knowledge Proofs (ZKPs), proving systems, and applied cryptography.  
+This repository documents my deep dive into — from theory and math foundations to practical implementations and performance benchmarks.
 
 ## Session Notes
 
@@ -17,6 +20,9 @@
 
 ## Experimental Implementation
 - [gvm](https://github.com/poly-layer/gvm) - GKR-based Risc-V VM
+- [gkr-proof-recursion](https://github.com/babybear-labs/GKR) - Recursive GKR Proof Compression
+- [poseidon2](https://github.com/babybear-labs/poseidon2) - Poseidon2 hash function
+- [sumcheck](https://github.com/babybear-labs/sumcheck) - ZKP protocol
 
 ## Bootcamps
 
