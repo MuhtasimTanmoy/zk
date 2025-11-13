@@ -173,6 +173,7 @@ Hands-on prototypes and implementations exploring ZK systems.
 - Binius
 - [Jolt](https://eprint.iacr.org/2023/1217.pdf)
 - Polymath
+- [TensorSwitch](https://eprint.iacr.org/2025/2065)
 
 ### STARK
 
