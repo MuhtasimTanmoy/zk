@@ -312,3 +312,7 @@ Property
 * Does not store full state or history
 
 **Note:** Full sync executes all transactions; fast sync avoids this by directly obtaining current state.
+
+
+## Resources
+[Formal Verification of Blockchain Consensus Algorithms in Lean 4](https://medium.com/@Koukyosyumei/from-paper-to-proof-how-we-can-formally-verify-blockchain-protocols-with-lean4-part-1-a7b3d0fc563f)
