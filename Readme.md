@@ -203,6 +203,7 @@ Hands-on prototypes and implementations exploring ZK systems.
 - [LatticeFold](https://eprint.iacr.org/2023/1192.pdf)
 - [Sonobe](https://privacy-scaling-explorations.github.io/sonobe-docs)
 - [KGH Fold](https://eprint.iacr.org/2025/144.pdf)
+- [Vega](https://eprint.iacr.org/2025/2094.pdf)
 
 ### Lookup Argument
 
