@@ -158,6 +158,9 @@
 | [**OpenVM**](https://book.openvm.dev)                                          | Transparent      | Yes                     | High        | High               | Modular architecture, supports general-purpose zkVM, adaptable to various use cases                                                                                                                                                       |
 | [**Brevis**](https://pico-docs.brevis.network)                                 | Transparent      | Yes                     | Very High   | High               | Focused on proof aggregation and recursion,[glue-and-coprocessor](https://vitalik.eth.limo/general/2024/09/02/gluecp.html) architecture, multiple proving backends, Coprocessor Integration                                                  |
 
+
+<img width="552" height="497" alt="Screenshot 2025-11-16 at 5 01 16 PM" src="https://github.com/user-attachments/assets/2c60a0ba-e1ee-44ba-89f0-e75b7f9af229" />
+
 ## ZK DSL
 
 - Cairo
