@@ -21,6 +21,7 @@ Lectures and summaries from leading cryptographers and researchers.
 * [Dan Boneh](./lectures/dan.md)
 * [David Wong](./lectures/wong.md)
 * [Vitalik](./lectures/vitalik.md)
+* [Tim Roughgarden](./lectures/tim.md)
 
 ## Experimental Implementation
 
