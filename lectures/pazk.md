@@ -2,7 +2,6 @@
 
 A curated collection of resources, study groups, protocols, and implementations for **interactive proofs, zero-knowledge arguments, and verifiable computing**.
 
----
 
 ## Table of Contents
 
@@ -21,14 +20,14 @@ A curated collection of resources, study groups, protocols, and implementations 
 6. [Frontend Representations](#frontend-representations)
 7. [Proof System Properties](#proof-system-properties)
 
----
+
 
 ## Books & References
 
 - [Arguments And Zero Knowledge Book by Thaler](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
 - Community: [ZK Hack](https://community.zkhack.dev)
 
----
+
 
 ## Study Groups & Videos
 
@@ -39,7 +38,7 @@ A curated collection of resources, study groups, protocols, and implementations 
 - [Thaler Study Group Video](https://www.youtube.com/watch?v=qQ7yIEJKCtE&list=PLTPK8HRi5qmlIBA7TDTO8hBOprAc1FIQv&index=11)
 - [Thaler Study Group 13](https://share.descript.com/view/nzCXLqQqEez)
 
----
+
 
 ## Key Concepts
 
@@ -88,7 +87,7 @@ A curated collection of resources, study groups, protocols, and implementations 
 - Transparent: Bulletproofs, Dory, Hyrax
 - Hash-based: FRI, Ligero, Binus
 
----
+
 
 ## Protocols to Implement
 
@@ -109,14 +108,14 @@ Implementations in Rust and Python, tracked at [PAZK GitHub](https://github.com/
 - Bulletproofs & KZG polynomial commitments
 - Groth16, Plonk, Dory, Hydrax, GGPR13
 
----
+
 
 ## Implementations
 
 - [PAZK](https://github.com/thor314/pazk)
 - [PAZK Notes](https://github.com/SuccinctPaul/pazk-notes)
 
----
+
 
 ## Frontend Representations
 
@@ -124,7 +123,7 @@ Implementations in Rust and Python, tracked at [PAZK GitHub](https://github.com/
 - AIR
 - Plonkish constraint systems
 
----
+
 
 ## Proof System Properties
 
@@ -136,4 +135,4 @@ Implementations in Rust and Python, tracked at [PAZK GitHub](https://github.com/
 
 -**Efficient proving:** Proving should be fast for simple statements
 
----
+
