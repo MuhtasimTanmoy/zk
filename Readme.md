@@ -31,6 +31,7 @@ Hands-on prototypes and implementations exploring ZK systems.
 - [gkr-proof-recursion](https://github.com/babybear-labs/GKR) - Recursive GKR Proof Compression
 - [poseidon2](https://github.com/babybear-labs/poseidon2) - Poseidon2 hash function
 - [sumcheck](https://github.com/babybear-labs/sumcheck) - ZKP protocol
+- [sumcheck sagemath](./playground/sumcheck)
 
 ## Bootcamps
 
