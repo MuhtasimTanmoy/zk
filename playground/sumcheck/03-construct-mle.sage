@@ -58,3 +58,10 @@ def multilinear_extension(f):
         R = PolynomialRing(ext.base_ring(), ext.variables())
         ext = R(ext)
     return ext
+
+
+F = QQ
+f_tbl = {(0,0):F(0), (0,1):F(5), (1,0):F(1), (1,1):F(1)}
+ft = multilinear_extension(f_tbl)
+print(ft)
+print(ft(F(1)/2, F(1)/2))
