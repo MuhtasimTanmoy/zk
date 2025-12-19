@@ -1,0 +1,405 @@
+reduce_bf::reduce_1K    time:   [36.275 µs 37.276 µs 38.458 µs]
+Found 4 outliers among 100 measurements (4.00%)
+  4 (4.00%) high severe
+
+reduce_bf::reduce_16K   time:   [76.422 µs 77.088 µs 77.851 µs]
+Found 9 outliers among 100 measurements (9.00%)
+  2 (2.00%) low severe
+  1 (1.00%) low mild
+  2 (2.00%) high mild
+  4 (4.00%) high severe
+
+reduce_bf::reduce_64K   time:   [159.96 µs 161.13 µs 162.40 µs]
+Found 7 outliers among 100 measurements (7.00%)
+  5 (5.00%) high mild
+  2 (2.00%) high severe
+
+reduce_bf::reduce_256K  time:   [487.24 µs 491.29 µs 495.66 µs]
+Found 5 outliers among 100 measurements (5.00%)
+  2 (2.00%) high mild
+  3 (3.00%) high severe
+
+reduce_bf::reduce_1M    time:   [2.0070 ms 2.0159 ms 2.0263 ms]
+Found 15 outliers among 100 measurements (15.00%)
+  1 (1.00%) low severe
+  7 (7.00%) high mild
+  7 (7.00%) high severe
+
+bf_pairwise::reduce_1K  time:   [43.929 µs 44.244 µs 44.530 µs]
+Found 5 outliers among 100 measurements (5.00%)
+  2 (2.00%) low mild
+  3 (3.00%) high mild
+
+bf_pairwise::reduce_16K time:   [161.25 µs 163.08 µs 165.12 µs]
+Found 13 outliers among 100 measurements (13.00%)
+  7 (7.00%) high mild
+  6 (6.00%) high severe
+
+bf_pairwise::reduce_64K time:   [489.54 µs 500.05 µs 508.86 µs]
+Found 18 outliers among 100 measurements (18.00%)
+  9 (9.00%) low severe
+  5 (5.00%) high mild
+  4 (4.00%) high severe
+
+bf_pairwise::reduce_256K
+                        time:   [2.0206 ms 2.0399 ms 2.0605 ms]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+
+bf_pairwise::reduce_1M  time:   [7.9266 ms 7.9910 ms 8.0560 ms]
+Found 11 outliers among 100 measurements (11.00%)
+  2 (2.00%) low severe
+  2 (2.00%) low mild
+  3 (3.00%) high mild
+  4 (4.00%) high severe
+
+Benchmarking sumcheck::fp4_smallm31: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 60.2s, or reduce sample count to 10.
+sumcheck::fp4_smallm31  time:   [556.81 ms 563.19 ms 572.98 ms]
+Found 5 outliers among 100 measurements (5.00%)
+  1 (1.00%) high mild
+  4 (4.00%) high severe
+
+Benchmarking sumcheck::time_prover_SmallM31: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 17.2s, or reduce sample count to 20.
+sumcheck::time_prover_SmallM31
+                        time:   [171.85 ms 172.28 ms 172.77 ms]
+Found 11 outliers among 100 measurements (11.00%)
+  1 (1.00%) high mild
+  10 (10.00%) high severe
+
+Benchmarking sumcheck::time_prover_f128: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 61.8s, or reduce sample count to 10.
+sumcheck::time_prover_f128
+                        time:   [611.48 ms 612.81 ms 614.29 ms]
+Found 8 outliers among 100 measurements (8.00%)
+  7 (7.00%) high mild
+  1 (1.00%) high severe
+
+evaluate_bf::evaluate_1K
+                        time:   [460.99 ns 461.22 ns 461.50 ns]
+Found 5 outliers among 100 measurements (5.00%)
+  2 (2.00%) high mild
+  3 (3.00%) high severe
+
+evaluate_bf::evaluate_16K
+                        time:   [5.0185 µs 5.0689 µs 5.1292 µs]
+Found 14 outliers among 100 measurements (14.00%)
+  3 (3.00%) high mild
+  11 (11.00%) high severe
+
+evaluate_bf::evaluate_64K
+                        time:   [110.17 µs 112.58 µs 114.90 µs]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high mild
+
+evaluate_bf::evaluate_256K
+                        time:   [226.51 µs 232.38 µs 237.63 µs]
+Found 5 outliers among 100 measurements (5.00%)
+  1 (1.00%) low severe
+  2 (2.00%) low mild
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+
+evaluate_bf::evaluate_1M
+                        time:   [738.69 µs 802.20 µs 863.77 µs]
+Found 11 outliers among 100 measurements (11.00%)
+  11 (11.00%) low mild
+
+bf_pairwise::evaluate_1K
+                        time:   [65.705 µs 66.235 µs 66.750 µs]
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+
+Benchmarking bf_pairwise::evaluate_16K: Collecting 100 samples i
+bf_pairwise::evaluate_16K
+                        time:   [162.47 µs 164.34 µs 165.87 µs]
+Found 10 outliers among 100 measurements (10.00%)
+  2 (2.00%) low severe
+  3 (3.00%) low mild
+  2 (2.00%) high mild
+  3 (3.00%) high severe
+
+Benchmarking bf_pairwise::evaluate_64K: Collecting 100 samples i
+bf_pairwise::evaluate_64K
+                        time:   [493.92 µs 505.71 µs 517.37 µs]
+Found 7 outliers among 100 measurements (7.00%)
+  3 (3.00%) low mild
+  4 (4.00%) high mild
+
+Benchmarking bf_pairwise::evaluate_256K: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 8.6s, enable flat sampling, or reduce sample count to 50.
+Benchmarking bf_pairwise::evaluate_256K: Collecting 100 samples 
+bf_pairwise::evaluate_256K
+                        time:   [1.6468 ms 1.6660 ms 1.6850 ms]
+Found 14 outliers among 100 measurements (14.00%)
+  1 (1.00%) low severe
+  1 (1.00%) low mild
+  7 (7.00%) high mild
+  5 (5.00%) high severe
+
+Benchmarking bf_pairwise::evaluate_1M: Collecting 100 samples in estimated 5.0931 s (700 
+bf_pairwise::evaluate_1M
+                        time:   [6.4184 ms 6.5135 ms 6.6137 ms]
+Found 5 outliers among 100 measurements (5.00%)
+  5 (5.00%) high mild
+
+Benchmarking evaluate_ef::evaluate_1K: Collecting 100 samples in estimated 5.0049 s (4.1M
+evaluate_ef::evaluate_1K
+                        time:   [1.2065 µs 1.2073 µs 1.2084 µs]
+Found 10 outliers among 100 measurements (10.00%)
+  4 (4.00%) low severe
+  2 (2.00%) low mild
+  1 (1.00%) high mild
+  3 (3.00%) high severe
+
+Benchmarking evaluate_ef::evaluate_16K: Collecting 100 samples in estimated 5.0555 s (252
+evaluate_ef::evaluate_16K
+                        time:   [19.954 µs 19.967 µs 19.981 µs]
+Found 6 outliers among 100 measurements (6.00%)
+  2 (2.00%) high mild
+  4 (4.00%) high severe
+
+Benchmarking evaluate_ef::evaluate_64K: Collecting 100 samples in estimated 5.1480 s (20k
+evaluate_ef::evaluate_64K
+                        time:   [224.48 µs 231.60 µs 239.21 µs]
+Found 20 outliers among 100 measurements (20.00%)
+  10 (10.00%) low mild
+  2 (2.00%) high mild
+  8 (8.00%) high severe
+
+Benchmarking evaluate_ef::evaluate_256K: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 5.8s, enable flat sampling, or reduce sample count to 60.
+Benchmarking evaluate_ef::evaluate_256K: Collecting 100 samples in estimated 5.7524 s (50
+evaluate_ef::evaluate_256K
+                        time:   [1.0397 ms 1.1004 ms 1.1562 ms]
+Found 12 outliers among 100 measurements (12.00%)
+  4 (4.00%) low severe
+  7 (7.00%) low mild
+  1 (1.00%) high mild
+
+Benchmarking evaluate_ef::evaluate_1M: Collecting 100 samples in estimated 5.0224 s (900 
+evaluate_ef::evaluate_1M
+                        time:   [5.4416 ms 5.5387 ms 5.6314 ms]
+Found 16 outliers among 100 measurements (16.00%)
+  2 (2.00%) low severe
+  11 (11.00%) low mild
+  3 (3.00%) high mild
+
+Benchmarking pairwise::evaluate_1K: Collecting 100 samples in estimated 5.1440 s (76k ite
+pairwise::evaluate_1K   time:   [65.719 µs 66.872 µs 67.942 µs]
+                        change: [+32.757% +37.374% +40.877%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 5 outliers among 100 measurements (5.00%)
+  2 (2.00%) low severe
+  2 (2.00%) low mild
+  1 (1.00%) high mild
+
+Benchmarking pairwise::evaluate_16K: Collecting 100 samples in estimated 5.5737 s (35k it
+pairwise::evaluate_16K  time:   [156.99 µs 157.64 µs 158.35 µs]
+Found 14 outliers among 100 measurements (14.00%)
+  3 (3.00%) low mild
+  5 (5.00%) high mild
+  6 (6.00%) high severe
+
+Benchmarking pairwise::evaluate_64K: Collecting 100 samples in estimated 7.3202 s (15k it
+pairwise::evaluate_64K  time:   [305.55 µs 330.66 µs 357.39 µs]
+                        change: [+333.69% +356.82% +380.53%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+
+Benchmarking pairwise::evaluate_256K: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 7.3s, enable flat sampling, or reduce sample count to 50.
+Benchmarking pairwise::evaluate_256K: Collecting 100 samples in estimated 7.3429 s (5050 
+pairwise::evaluate_256K time:   [1.3822 ms 1.4309 ms 1.4745 ms]
+Found 16 outliers among 100 measurements (16.00%)
+  6 (6.00%) low severe
+  4 (4.00%) low mild
+  4 (4.00%) high mild
+  2 (2.00%) high severe
+
+Benchmarking pairwise::evaluate_1M: Collecting 100 samples in estimated 5.2422 s (900 ite
+pairwise::evaluate_1M   time:   [5.7468 ms 5.8467 ms 5.9526 ms]
+                        change: [+1213.0% +1239.7% +1269.1%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 3 outliers among 100 measurements (3.00%)
+  3 (3.00%) high mild
+
+Benchmarking reduce_ef::reduce_1K: Collecting 100 samples in estimated 5.1768 s (111k ite
+reduce_ef::reduce_1K    time:   [46.261 µs 46.464 µs 46.703 µs]
+Found 9 outliers among 100 measurements (9.00%)
+  3 (3.00%) low mild
+  2 (2.00%) high mild
+  4 (4.00%) high severe
+
+Benchmarking reduce_ef::reduce_16K: Collecting 100 samples in estimated 5.3688 s (30k ite
+reduce_ef::reduce_16K   time:   [175.62 µs 176.37 µs 177.24 µs]
+Found 15 outliers among 100 measurements (15.00%)
+  7 (7.00%) high mild
+  8 (8.00%) high severe
+
+Benchmarking reduce_ef::reduce_64K: Collecting 100 samples in estimated 6.2018 s (10k ite
+reduce_ef::reduce_64K   time:   [595.85 µs 600.67 µs 605.73 µs]
+Found 4 outliers among 100 measurements (4.00%)
+  2 (2.00%) low mild
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+
+Benchmarking reduce_ef::reduce_256K: Collecting 100 samples in estimated 5.0358 s (2100 i
+reduce_ef::reduce_256K  time:   [2.3946 ms 2.4081 ms 2.4237 ms]
+Found 15 outliers among 100 measurements (15.00%)
+  3 (3.00%) low severe
+  2 (2.00%) low mild
+  6 (6.00%) high mild
+  4 (4.00%) high severe
+
+Benchmarking reduce_ef::reduce_1M: Collecting 100 samples in estimated 5.6242 s (500 iter
+reduce_ef::reduce_1M    time:   [11.541 ms 11.651 ms 11.765 ms]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high mild
+
+Benchmarking ef_pairwise::reduce_1K: Collecting 100 samples in estimated 5.1318 s (111k i
+ef_pairwise::reduce_1K  time:   [45.834 µs 46.043 µs 46.258 µs]
+Found 3 outliers among 100 measurements (3.00%)
+  1 (1.00%) high mild
+  2 (2.00%) high severe
+
+Benchmarking ef_pairwise::reduce_16K: Collecting 100 samples in estimated 5.8861 s (30k i
+ef_pairwise::reduce_16K time:   [192.83 µs 194.27 µs 195.90 µs]
+Found 11 outliers among 100 measurements (11.00%)
+  6 (6.00%) high mild
+  5 (5.00%) high severe
+
+Benchmarking ef_pairwise::reduce_64K: Collecting 100 samples in estimated 6.3293 s (10k i
+ef_pairwise::reduce_64K time:   [621.95 µs 626.23 µs 630.82 µs]
+Found 14 outliers among 100 measurements (14.00%)
+  5 (5.00%) high mild
+  9 (9.00%) high severe
+
+Benchmarking ef_pairwise::reduce_256K: Collecting 100 samples in estimated 5.0485 s (2100
+ef_pairwise::reduce_256K
+                        time:   [2.4084 ms 2.4343 ms 2.4588 ms]
+Found 3 outliers among 100 measurements (3.00%)
+  3 (3.00%) low mild
+
+Benchmarking ef_pairwise::reduce_1M: Collecting 100 samples in estimated 5.5060 s (500 it
+ef_pairwise::reduce_1M  time:   [10.984 ms 11.052 ms 11.124 ms]
+Found 4 outliers among 100 measurements (4.00%)
+  1 (1.00%) low mild
+  2 (2.00%) high mild
+  1 (1.00%) high severe
+
+     Running benches/explanation.rs (target/release/deps/explanation-bf317e00508e6849)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running benches/extension_benches.rs (target/release/deps/extension_benches-af713482d4a08c73)
+Gnuplot not found, using plotters backend
+M31 multiply            time:   [2.3893 µs 2.3916 µs 2.3934 µs]
+                        change: [−26.230% −26.127% −26.041%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 7 outliers among 100 measurements (7.00%)
+  3 (3.00%) low severe
+  1 (1.00%) low mild
+  3 (3.00%) high severe
+
+M31 addition            time:   [1.5555 µs 1.5559 µs 1.5563 µs]
+                        change: [+12.411% +14.436% +15.595%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 13 outliers among 100 measurements (13.00%)
+  12 (12.00%) high mild
+  1 (1.00%) high severe
+
+Benchmarking Fp4<M31> multiply: Collecting 100 samples in estimated 5.0698 s (263k iterat
+Fp4<M31> multiply       time:   [19.288 µs 19.311 µs 19.350 µs]
+                        change: [−23.073% −22.706% −22.383%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 10 outliers among 100 measurements (10.00%)
+  5 (5.00%) high mild
+  5 (5.00%) high severe
+
+Benchmarking Fp4<M31> multiply by basefield: Collecting 100 samples in estimated 5.0088 s
+Fp4<M31> multiply by basefield
+                        time:   [3.1616 µs 3.1635 µs 3.1656 µs]
+                        change: [−31.193% −30.905% −30.653%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+
+Benchmarking Goldilocks mult: Collecting 100 samples in estimated 5.0184 s (1.1M iteratio
+Goldilocks mult         time:   [4.6220 µs 4.6237 µs 4.6257 µs]
+                        change: [+9.6572% +11.326% +12.264%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 5 outliers among 100 measurements (5.00%)
+  4 (4.00%) high mild
+  1 (1.00%) high severe
+
+Benchmarking Goldilocks add: Collecting 100 samples in estimated 5.0026 s (2.7M iteration
+Goldilocks add          time:   [1.8269 µs 1.8275 µs 1.8281 µs]
+                        change: [+35.740% +35.828% +35.913%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 4 outliers among 100 measurements (4.00%)
+  3 (3.00%) high mild
+  1 (1.00%) high severe
+
+Benchmarking Fp2<Goldilocks> multiply: Collecting 100 samples in estimated 5.0478 s (434k
+Fp2<Goldilocks> multiply
+                        time:   [11.620 µs 11.629 µs 11.638 µs]
+                        change: [+20.000% +20.384% +20.731%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 5 outliers among 100 measurements (5.00%)
+  3 (3.00%) high mild
+  2 (2.00%) high severe
+
+Benchmarking Fp2<Goldilocks> add: Collecting 100 samples in estimated 5.0105 s (2.1M iter
+Fp2<Goldilocks> add     time:   [2.3847 µs 2.3859 µs 2.3872 µs]
+                        change: [+30.640% +30.883% +31.089%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 7 outliers among 100 measurements (7.00%)
+  7 (7.00%) high mild
+
+Benchmarking Fp2<Goldilocks> multiply by basefield: Collecting 100 samples in estimated 5
+Fp2<Goldilocks> multiply by basefield
+                        time:   [5.2095 µs 5.2123 µs 5.2156 µs]
+                        change: [+7.1932% +7.6287% +7.9491%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 7 outliers among 100 measurements (7.00%)
+  4 (4.00%) high mild
+  3 (3.00%) high severe
+
+Benchmarking F128 addition: Collecting 100 samples in estimated 5.0018 s (5.3M iterations
+F128 addition           time:   [925.35 ns 927.69 ns 929.99 ns]
+                        change: [+1.9388% +3.8954% +5.2743%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+
+Benchmarking F128 multiply: Collecting 100 samples in est
+F128 multiply           time:   [7.5243 µs 7.5292 µs 7.5347 µs]
+                        change: [+14.794% +15.224% +15.587%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 8 outliers among 100 measurements (8.00%)
+  7 (7.00%) high mild
+  1 (1.00%) high severe
+
+     Running benches/provers.rs (target/release/deps/provers-20e79207fbc5bcf9)
+Gnuplot not found, using plotters backend
+Benchmarking sumcheck_prover/time_product_prover: Warming up for 2.0000 s
+Warning: Unable to complete 10 samples in 10.0s. You may wish to increase target time to 29.5s.
+Benchmarking sumcheck_prover/time_product_prover: Collect
+Benchmarking sumcheck_prover/time_product_prover: Analyzi
+sumcheck_prover/time_product_prover
+                        time:   [2.2937 s 2.3043 s 2.3156 s]
+                        change: [−0.9856% +3.7267% +8.0474%] (p = 0.14 > 0.05)
+                        No change in performance detected.
+
+Benchmarking sumcheck_prover/time_prover: Warming up for 2.0000 s
+Warning: Unable to complete 10 samples in 10.0s. You may wish to increase target time to 18.0s or enable flat sampling.
+Benchmarking sumcheck_prover/time_prover: Collecting 10 s
+sumcheck_prover/time_prover
+                        time:   [216.85 ms 219.26 ms 223.06 ms]
+                        change: [+10.710% +13.060% +15.639%] (p = 0.00 < 0.05)
+                        Performance has regressed.
