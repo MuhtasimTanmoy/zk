@@ -90,6 +90,11 @@ Hands-on prototypes and implementations exploring ZK systems.
   - [Finale Projects](bootcamps/zkml/projects.md)
     
 - [GKR Bounty](./bootcamps/gkr/doc.md)
+
+
+## Rollup
+<img width="1056" height="386" alt="image" src="https://github.com/user-attachments/assets/c38c8aaf-9165-4f55-a561-1e3fb60cf13d" />
+
  
 ## ZK-VM
 ZK-VM stands for Zero-Knowledge Virtual Machine. It proves that the program was executed correctly.
