@@ -203,6 +203,7 @@ Steps for generating proof in ZK-VM
 - [Jolt](https://eprint.iacr.org/2023/1217.pdf)
 - Polymath
 - [TensorSwitch](https://eprint.iacr.org/2025/2065)
+- [QuickSilver](https://eprint.iacr.org/2021/076.pdf)
 
 ### STARK
 
