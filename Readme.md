@@ -11,6 +11,7 @@ Focused notes and summaries from my study sessions and research.
 - [ZK Hack](./sessions/zkhack.md)
 - [MOOC](./sessions/mooc.md)
 - [MEV](./sessions/mev.md)
+- [Binary Fields](./sessions/binary.md)
 
 ## Lectures
 
